@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>全国疫情实时追踪</title>
+    <link rel="stylesheet" th:href="@{css/index.css}">
+    <script type="text/javascript" th:src="@{js/jquery-3.4.1.min.js}"></script>
+    <script type="text/javascript" th:src="@{js/echarts.min.js}"></script>
+    <script type="text/javascript" th:src="@{js/china.js}"></script>
+    <script type="text/javascript" th:src="@{js/echarts-wordcloud.min.js}"></script>
+    <script type="text/javascript" th:src="@{js/controller.js}"></script>
+</head>
+<body>
+<div>
+    <div id="title">全国疫情实时追踪</div>
+    <div id="time"></div>
+    <div id="left1"></div>
+    <div id="left2"></div>
+    <div id="center1">
+        <div class="num"><h3></h3></div>
+        <div class="num"><h3></h3></div>
+        <div class="num"><h3></h3></div>
+        <div class="num"><h3></h3></div>
+        <div class="txt"><h2>累计确诊</h2></div>
+        <div class="txt"><h2>剩余疑似</h2></div>
+        <div class="txt"><h2>累计治愈</h2></div>
+        <div class="txt"><h2>累计死亡</h2></div>
+    </div>
+    <div id="center2"></div>
+    <div id="right1"></div>
+    <div id="right2"></div>
+    <script type="text/javascript" th:src="@{js/left1.js}"></script>
+    <script type="text/javascript" th:src="@{js/left2.js}"></script>
+    <script type="text/javascript" th:src="@{js/right1.js}"></script>
+    <script type="text/javascript" th:src="@{js/right2.js}"></script>
+    <script type="text/javascript" th:src="@{js/center2.js}"></script>
+</div>
+</body>
+</html>
